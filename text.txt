@@ -1,0 +1,80 @@
+{
+"title": "FLA Guessing Game - You're asked to guess whether (a | b)*c is dfa or nfa by answering a series of questions",
+"help_info": "You're asked to guess whether (a | b)*c is dfa or nfa by answering a series of questions.",
+"root": {
+"node_num": 1,
+"question": "Does the regular expression contain any concatenation? (Y/N)",
+"l": {
+"node_num": 2,
+"question": "Does the regular expression contain any alternation? (Y/N)",
+"l": {
+"node_num": 3,
+"question": "Does the regular expression contain any Kleene star? (Y/N)",
+"l": {
+"node_num": 4,
+"question": "Does the regular expression contain any positive closure? (Y/N)",
+"l": {
+"node_num": 5,
+"question": "Does the regular expression contain any negative closure? (Y/N)",
+"l": "The regular expression is equivalent to an NFA.",
+"r": "The regular expression is equivalent to an DFA."
+},
+"r": "The regular expression is equivalent to an NFA."
+},
+"r": "We need more info"
+},
+"r": {
+"node_num": 7,
+"question": "Does the regular expression contain any concatenation? (Y/N)",
+"l": {
+"node_num": 8,
+"question": "Does the regular expression contain any concatenation? (Y/N)",
+"l": "We need more info",
+"r": "We need more info"
+},
+"r": {
+"node_num": 10,
+"question": "Does the regular expression contain any concatenation? (Y/N)",
+"l": {
+"node_num": 11,
+"question": "Does the regular expression contain any concatenation? (Y/N)",
+"l": "We need more info",
+"r": "We need more info"
+},
+"r": "We need more info"
+}
+}
+},
+"r": {
+"node_num": 13,
+"question": "Does the regular expression contain any concatenation? (Y/N)",
+"l": {
+"node_num": 14,
+"question": "Does the regular expression contain any concatenation? (Y/N)",
+"l": {
+"node_num": 15,
+"question": "Does the regular expression contain any concatenation? (Y/N)",
+"l": "We need more info",
+"r": "We need more info"
+},
+"r": "We need more info"
+},
+"r": {
+"node_num": 17,
+"question": "Does the regular expression contain any concatenation? (Y/N)",
+"l": {
+"node_num": 18,
+"question": "Does the regular expression contain any concatenation? (Y/N)",
+"l": "We need more info",
+"r": "We need more info"
+},
+"r": {
+"node_num": 20,
+"question": "Does the regular expression contain any concatenationp? (Y/N)",
+"l": "We need more info",
+"r": "We need more info"
+}
+}
+}
+}
+}
